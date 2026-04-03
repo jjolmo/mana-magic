@@ -1,18 +1,24 @@
 # Mana Magic
 
-A Secret of Mana inspired action RPG built with Godot 4.6.
+A Godot 4.6 template/engine for creating Secret of Mana-style action RPGs.
 
-![Mana Magic](engine/mana-magic.png)
+<p align="center">
+  <img src="engine/mana-magic.png" width="400" alt="Mana Magic"/>
+</p>
 
 ## About
 
-Mana Magic is an action RPG that recreates the gameplay and feel of the classic SNES title *Secret of Mana*. The project was originally developed in GameMaker Studio 2 and has been fully converted to Godot Engine using the [Doner Engine](https://github.com/jjolmo/doner-engine-godot) framework.
+Mana Magic is a **Godot 4.6 template** designed to recreate the core mechanics and gameplay systems found in the classic SNES title *Secret of Mana*. It provides a ready-to-use foundation for building your own action RPG based on those premises.
+
+The project originates from the [Doner Engine](https://github.com/jjolmo/doner-engine-godot), originally built in GameMaker Studio 2. Mana Magic is the Godot 4.6 port of that engine, adapted and restructured to take advantage of Godot's node system, signals, and editor tooling.
+
+More info about the original engine: [cidwel.com/doner](https://cidwel.com/doner)
 
 ## Current Status
 
 **Phase: Early Development / Engine Port**
 
-The game is currently in active development. The core systems ported from the GMS2 version include:
+The template is in active development. The core systems ported from the GMS2 version include:
 
 - Real-time combat with charge attacks
 - Multi-character party system with character swapping
@@ -27,7 +33,7 @@ The game is currently in active development. The core systems ported from the GM
 - Save system
 - Custom editor plugin for content creation
 
-The project is playable but incomplete — many areas, enemies, and story content are still being implemented.
+The template is functional but incomplete. Many areas, enemies, and content are still being implemented.
 
 ## Project Structure
 
@@ -64,11 +70,11 @@ If you are an artist or know of compatible open-source asset packs (CC0, CC-BY, 
 
 ### Future: ROM Asset Extraction
 
-In a future version, the project will include tooling to allow users to extract original assets directly from a **US version ROM of Secret of Mana (SNES)**. This will be done under each user's own responsibility — the project will not distribute any copyrighted assets, but will provide the tools to use your own legally obtained ROM as a source.
+In a future version, the project will include tooling to allow users to extract original assets directly from a **US version ROM of Secret of Mana (SNES)**. This will be done under each user's own responsibility. The project will not distribute any copyrighted assets, but will provide the tools to use your own legally obtained ROM as a source.
 
 ## License
 
-TBD
+This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
