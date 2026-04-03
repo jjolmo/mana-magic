@@ -2,9 +2,7 @@
 
 A Godot 4.6 template/engine for creating Secret of Mana-style action RPGs.
 
-<p align="center">
-  <img src="engine/mana-magic.png" width="400" alt="Mana Magic"/>
-</p>
+![Mana Magic](engine/mana-magic.png)
 
 ## About
 
