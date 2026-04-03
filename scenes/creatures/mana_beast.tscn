@@ -1,0 +1,48 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://db3bt0bifboqa" path="res://engine/creatures/boss_mana_beast.gd" id="1"]
+[ext_resource type="Script" uid="uid://dpjoxpyn4m8ga" path="res://engine/core/state_machine.gd" id="2"]
+[ext_resource type="Script" uid="uid://dlkrkrjpmt647" path="res://engine/creatures/states/boss_mana_beast_fireball.gd" id="3"]
+[ext_resource type="Script" uid="uid://doexc3byu3jyp" path="res://engine/creatures/states/boss_mana_beast_stand.gd" id="4"]
+[ext_resource type="Script" uid="uid://bojof3hhvqnkk" path="res://engine/creatures/states/boss_mana_beast_side.gd" id="5"]
+[ext_resource type="Script" uid="uid://c7xn37886h1xl" path="res://engine/creatures/states/boss_mana_beast_hit.gd" id="6"]
+[ext_resource type="Script" uid="uid://cao7ubtg2f4cm" path="res://engine/creatures/states/boss_mana_beast_dead.gd" id="7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_boss"]
+size = Vector2(32, 24)
+
+[node name="ManaBeast" type="CharacterBody2D"]
+z_index = -150
+motion_mode = 1
+collision_layer = 4
+collision_mask = 0
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Shadow" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0, 0.3)
+z_index = -1
+position = Vector2(0, 8)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_boss")
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("2")
+initial_state = NodePath("MBFireball")
+
+[node name="MBFireball" type="Node" parent="StateMachine"]
+script = ExtResource("3")
+
+[node name="MBStand" type="Node" parent="StateMachine"]
+script = ExtResource("4")
+
+[node name="MBSide" type="Node" parent="StateMachine"]
+script = ExtResource("5")
+
+[node name="MBHit" type="Node" parent="StateMachine"]
+script = ExtResource("6")
+
+[node name="MBDead" type="Node" parent="StateMachine"]
+script = ExtResource("7")

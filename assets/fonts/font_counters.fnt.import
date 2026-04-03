@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://ddmggun4727sl"
+path="res://.godot/imported/font_counters.fnt-95fc02fbdc13009e66e13b9c526caf8e.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/font_counters.fnt"
+dest_files=["res://.godot/imported/font_counters.fnt-95fc02fbdc13009e66e13b9c526caf8e.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

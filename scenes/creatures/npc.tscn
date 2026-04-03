@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://b8g4a5rqcvrrh" path="res://engine/creatures/npc.gd" id="1"]
+
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_npc"]
+size = Vector2(12, 8)
+
+[node name="NPC" type="CharacterBody2D"]
+motion_mode = 1
+collision_layer = 8
+collision_mask = 0
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Shadow" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0, 0.3)
+z_index = -1
+position = Vector2(0, -1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_npc")

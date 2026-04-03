@@ -1,0 +1,262 @@
+{
+	"rom_start-evt_start1": [
+		"Welcome to Mana Magic. Press [S] on keyboard  or [BTN 1] to advance the dialog",
+		"What kind of input is the main player going to use?"
+	],
+	"rom_start-evt_start1_android": [
+		"Welcome to Mana Magic. Press [ATTACK] to advance the dialog"
+	],
+	"rom_start-evt_start2": [
+		"Perfect. I'll configure {option} as the controller for the main player"
+	],
+	"rom_start-evt_start3": [
+		"This is a recreation of Secret of Mana. ¬\nIt's a whole engine!",
+		"There are 3 players that can be controlled by you or by AI",
+		"You can change the hero assigned to a controller by pressing the [SWAP/CHANGE] button"
+	],
+	"rom_start-evt_start3_extra": [
+		"You can also set more players by pressing the [START] button in other gamepads"
+	],
+	"rom_start-evt_start4": [
+		"This engine have two test scenes",
+		"Last bosses: As an engine capability test, you will face the last two bosses in \"Secret of Mana\". Cutscenes included (obvious spoilers ahead)",
+		"Free room: Small map with some story",
+		"Please select where do you want to go:"
+	],
+	"rom_start-evt_start5_android": [
+		"Perfect! I'll teleport you into the {option} scene.",
+		"This Engine was meant to be played in PC so there might be controls not available in Phone. Sorry about that",
+		"You can find more info and give me feedback, money or nuggets in @cidwel account in Twitter",
+		"Have fun!"
+	],
+	"rom_start-evt_start5": [
+		"Perfect! I'll teleport you into the {option} scene.",
+		"If something goes wrong, you can reset the game by pressing [F12]",
+		"You can find more info and give me feedback, money or nuggets in @cidwel account in Twitter",
+		"Have fun!"
+	],
+	"rom_01-evt_start1": [
+		"You can create monsters clicking in any area with the 2nd mouse button.",
+		"You can make a ton if you hold [CTRL] while clicking. Try not to be cruel"
+	],
+	"rom_01-evt_keyboard": [
+		"Actually I don't know why I'm still making this thing"
+	],
+	"rom_darklich-evt_darklich1": [
+		"PURIM:Dyluck!~ \nTHANATOS:For ages I have been searching...",
+		"for a human with the power to conquer this world...",
+		"...one born in the shadow of darkness, and raised in the light of Mana.",
+		"Dyluck is the one. \nI cannot wait any longer. \nMy body has grown weak!",
+		"It is time!",
+		"Using his body I will take the Mana Fortress, and rule the world!"
+	],
+	"rom_darklich-evt_darklich2": [
+		"PURIM:Dyluck! Resist him with all your might!"
+	],
+	"rom_darklich-evt_darklich3": [
+		"THANATOS:Uhrg...ahh...kack! \nI must...¬hurry...¬This body \nis...breaking up!",
+		"H...help me¬...guhuf... ¬\nLet...m...maieee!\n"
+	],
+	"rom_darklich-evt_darklich4": [
+		"PURIM:Dyluck! \nSnap out of it!",
+		"DYLUCK:...Uhhn...where am I?...¬...¬...¬",
+		"Guwa ha ha!",
+		"THANATOS:Guwa ha ha! \nHow good this new body feels! I grow strong!",
+		"PURIM:Liar! You can't just STEAL someone's body!!",
+		"THANATOS:My dear, I can do anything I want! \nHa, ha-huh¬..¬?~ Can't...move!"
+	],
+	"rom_darklich-evt_darklich6": [
+		"PURIM...can you hear me? It's me, Dyluck....",
+		"He's too strong...I'm finished, but I can help you...",
+		"Thanatos is an ancient sorcerer who sold his heart to the underworld.",
+		"Though his life force is eternal, he hasn't this own body.",
+		"His life force is growing darker. He feeds on hatred and destruction!"
+	],
+	"rom_darklich-evt_darklich7": [
+		"THANATOS:Ohh! Silence!"
+	],
+	"rom_darklich-evt_darklich8": [
+		"PURIM:I'm so sorry I won't see you again. But I have to do this.,",
+		"You're RANDI, RIGHT? \nTake care of PURIM..."
+	],
+	"rom_darklich-evt_darklich9": [
+		"PURIM:Dyluck! Stop it! \nPlease! Dyluck! STOP IT!! \nTHANATOS:Ugrrrrrrr!"
+	],
+	"rom_darklich-evt_darklich10": [
+		"THANATOS:I forbid this! \nJust when I was to be reborn! I...must withdraw!",
+		"Give me your bodies! \nGUWAA!"
+	],
+	"rom_darklich-evt_darklichTest": [
+		"Esto \nes input ~wait \nde mierda ¬ Bsdfsd fOOOM"
+	],
+	"rom_darklich-evt_killedDarkLich1": [
+		"     The seal on Dryad's \"Mana\" magic is gone!"
+	],
+	"rom_darklich-evt_killedDarkLich2": [
+		"PURIM:Ooh...!¬¬\n...¬Dyluck!!!"
+	],
+	"rom_darklich-evt_killedDarkLich3": [
+		"RANDI:PURIM..."
+	],
+	"rom_darklich-evt_killedDarkLich4": [
+		"RANDI:What the..?!¬\n Let's get out of here!",
+		"POPOIE:Uwaaa!",
+		"RANDI:What is it?\nPOPOIE:...whew..!¬\nI'm okay...¬just dizzy!",
+		"We have to get out of here, NOW!"
+	],
+	"rom_darklich-evt_manaFortressOutside1": [
+		"POPOIE:It's a Mana Beast!\nPURIM:Isn't it a Flammie?",
+		"RANDI:I guess Flammies were once Mana Beasts...",
+		"POPOIE:Hurry, or the Mana Beast will ruin the world!"
+	],
+	"rom_darklich-evt_manaFortressOutside2": [
+		"POPOIE:Come on! Do it!",
+		"RANDI:...I can't...\nI won't hurt a Mana\nBeast! I can't!",
+		"They are only trying to restore Mana!",
+		"And...¬...POPOIE!\nIf you use up all your Mana power, you'll dissapear!",
+		"PURIM:Oh NO!~\nRANDI:Right...I can't go through with this...",
+		"POPOIE:...¬...\nWhaddaya mean? I'm NOT gonna kick the bucket!",
+		"My world is separate from this one. It just means I won't...see you again.",
+		"It's ok, if we don't stop the Mana Beast, your world is finished, right?",
+		"Everything will perish.\nTrees...animals...PEOPLE!\nThat must not happen!",
+		"YOU have the mana Sword\nYOU must save this world...\nYou have no choice!",
+		"You made a vow to your mother, the Mana Tree, right? I'll be okay.",
+		"RANDI:All right...~\n...you're sure?",
+		"POPOIE:OF COURSE!\nLater, PURIM!"
+	],
+	"rom_manaBeast_start0": "POPOIE: Take the sword!",
+	"rom_manaBeast_start1": "we'll cast mana magic, then!",
+	"rom_manaBeast_start2": "Mana Sword will appear!",
+	"rom_02-evt_rabiteQuestStart_0": [
+		"POPOIE: Oiiii! I'm tired...¬And hungry!¬\nCan we rest a little?"
+	],
+	"rom_02-evt_rabiteQuestStart_1": [
+		"PURIM:Eating your food, mine, even the King's one at Tasnica ins't fulfulling for you",
+		"That was two hours ago!\n¬How could you be hungry?",
+		"POPOIE:Black Magic makes me hungry. Stop over abusing me!"
+	],
+	"rom_02-evt_rabiteQuestStart_2": [
+		"RANDI:We're late!\nWe should bring the seeds to Luka.",
+		"She will tell us how to seal them back again!"
+	],
+	"rom_02-evt_rabiteQuestStart_3": [
+		"PURIM:Huh...¬??¬ \nIs that a Rabite?¬ So cute!\nHaven't seen one in long time",
+		"POPOIE:Can we roast it?¬\nI'll take just a bite.¬\nI swear!"
+	],
+	"rom_02-evt_rabiteQuestStart_4": [
+		"RANDI:Ooowwww!!\nPURIM:Ouch!\nPOPOIE:AIEEEE!"
+	],
+	"rom_02-evt_rabiteQuestStart_5": [
+		"PURIM:Hey! You scoundrel!",
+		"RANDI:NO!¬ The Mana Seeds! That idiot stole them!"
+	],
+	"rom_02-evt_rabiteQuestStart_6": [
+		"POPOIE:Grrrr!¬ I'm going to devour that idiot!"
+	],
+	"rom_02-evt_rabiteQuestStart_7": [
+		"RANDI:Hey!¬ Wait!"
+	],
+	"rom_02-evt_rabiteQuestField_1": [
+		"RANDI:There it is!"
+	],
+	"rom_02-evt_rabiteQuestField_2": [
+		"RANDI:Quick!\nWe need to recover the seeds!",
+		"POPOIE:With barbecue sauce or raw. I don't care!",
+		"PURIM:I thought sprites were less... sadistic"
+	],
+	"rom_02-teleportDeny_1": [
+		"Hey!¬ The rabite went forth! We have to recover the seeds!"
+	],
+	"rom_end-evt_end": [
+		"The demo ends here.¬ Hope you liked it.",
+		"You can follow the progress of this engine at my Twitter @cidwel",
+		"Thanks for playing!"
+	],
+	"general_gameOver": [
+		"Sadly, no trace of them was ever found..."
+	],
+	"conditions_heroHasSwordEquipped": [
+		"Randi should wear the Sword!"
+	],
+	"conditions_callFlammie": [
+		"CANNOT call Flammie here!"
+	],
+	"conditions_useRope": [
+		"CANNOT use rope here!"
+	],
+	"legend": [
+		"¬ stop",
+		"~ wait input",
+		"\n force new line ",
+		"^ will set dialog.lock to true and text will not advance until dialogUnlock() is called. NOT WORKING, I HAVE TO CREATE IT",
+		"{option} will show the selected option (todo)",
+		"{new} will recreate the dialog with the animation. Good for changing actors (todo)",
+		"Hey!¬ The rabite went forth! \nWe have to recover the seeds! (// todo: check this out!!"
+	],
+	"rom_01-npc_neko_01": [
+		"Howdy!¬ What a purrrr-¬fect weather we have today ",
+		"What business do you have here?¬ I'm your cat!"
+	],
+	"rom_darklich-evt_darklich4a": [
+		"PURIM:Dyluck! \nSnap out of it!",
+		"DYLUCK:...Uhhn...where am I?...¬...¬...¬"
+	],
+	"rom_darklich-evt_darklich4b": [
+		"Guwa ha ha!"
+	],
+	"rom_darklich-evt_darklich4c": [
+		"THANATOS:Guwa ha ha! \nHow good this new body feels! I grow strong!"
+	],
+	"rom_darklich-evt_darklich4d": [
+		"PURIM:Liar! You can't just STEAL someone's body!!",
+		"THANATOS:My dear, I can do anything I want! \nHa, ha-huh¬..¬?~ Can't...move!"
+	],
+	"test-menu-main": [
+		"CUTSCENE TEST ROOM\nSelect a category:"
+	],
+	"test-menu-camera": [
+		"CAMERA TESTS\nSelect an action:"
+	],
+	"test-menu-screen": [
+		"SCREEN EFFECT TESTS\nSelect an action:"
+	],
+	"test-menu-movement": [
+		"MOVEMENT TESTS\nSelect an action:"
+	],
+	"test-menu-animation": [
+		"ANIMATION TESTS\nSelect an action:"
+	],
+	"test-menu-dialog": [
+		"DIALOG TESTS\nSelect an action:"
+	],
+	"test-demo-done": [
+		"Done! Returning to menu..."
+	],
+	"test-dialog-top": [
+		"This dialog is anchored to the TOP of the screen."
+	],
+	"test-dialog-bottom": [
+		"This dialog is anchored to the BOTTOM of the screen."
+	],
+	"test-dialog-multipage": [
+		"Page 1 of 3.¬ This text pauses here.",
+		"Page 2 of 3.\nWith a line break!",
+		"Page 3 of 3. All done!"
+	],
+	"test-dialog-question": [
+		"Pick your favorite character:"
+	],
+	"test-dialog-answer": [
+		"You chose: {answer}! Great choice."
+	],
+	"test-combined-1": [
+		"Starting mini-cutscene...¬ Watch the choreography!"
+	],
+	"test-combined-2": [
+		"RANDI:The camera moved!¬ Now watch the shake..."
+	],
+	"test-combined-3": [
+		"PURIM:That was exciting!",
+		"POPOIE:Can we do it again?"
+	]
+}

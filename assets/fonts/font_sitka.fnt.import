@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://bhb13hvowgbo0"
+path="res://.godot/imported/font_sitka.fnt-4eb76b61bd29950f2361da765ba2804e.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/font_sitka.fnt"
+dest_files=["res://.godot/imported/font_sitka.fnt-4eb76b61bd29950f2361da765ba2804e.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

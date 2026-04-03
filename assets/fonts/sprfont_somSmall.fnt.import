@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://cy8sfb24gkvbw"
+path="res://.godot/imported/sprfont_somSmall.fnt-193d44dea38a7d6cde2493dbf7cc72bd.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/sprfont_somSmall.fnt"
+dest_files=["res://.godot/imported/sprfont_somSmall.fnt-193d44dea38a7d6cde2493dbf7cc72bd.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

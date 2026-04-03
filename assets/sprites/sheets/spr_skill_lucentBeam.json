@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_lucentBeam",
+  "frame_width": 200,
+  "frame_height": 200,
+  "columns": 10,
+  "rows": 4,
+  "total_frames": 31,
+  "sheet_width": 2000,
+  "sheet_height": 800,
+  "xorigin": 100,
+  "yorigin": 100,
+  "playback_speed": 60.0
+}

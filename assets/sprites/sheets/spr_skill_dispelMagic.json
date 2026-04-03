@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_dispelMagic",
+  "frame_width": 104,
+  "frame_height": 104,
+  "columns": 10,
+  "rows": 3,
+  "total_frames": 22,
+  "sheet_width": 1040,
+  "sheet_height": 312,
+  "xorigin": 52,
+  "yorigin": 52,
+  "playback_speed": 60.0
+}

@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://c1nvt5gbs7gse" path="res://engine/combat/skill_effect.gd" id="1"]
+
+[node name="SkillEffect" type="Node2D"]
+script = ExtResource("1")

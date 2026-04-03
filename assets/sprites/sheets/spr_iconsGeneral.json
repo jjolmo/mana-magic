@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_iconsGeneral",
+  "frame_width": 16,
+  "frame_height": 16,
+  "columns": 10,
+  "rows": 5,
+  "total_frames": 49,
+  "sheet_width": 160,
+  "sheet_height": 80,
+  "xorigin": 0,
+  "yorigin": 0
+}

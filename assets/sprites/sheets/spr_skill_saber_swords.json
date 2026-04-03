@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_saber_swords",
+  "frame_width": 98,
+  "frame_height": 98,
+  "columns": 10,
+  "rows": 5,
+  "total_frames": 47,
+  "sheet_width": 980,
+  "sheet_height": 490,
+  "xorigin": 49,
+  "yorigin": 60,
+  "playback_speed": 60.0
+}

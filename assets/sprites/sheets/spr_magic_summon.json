@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_magic_summon",
+  "frame_width": 36,
+  "frame_height": 36,
+  "columns": 9,
+  "rows": 1,
+  "total_frames": 9,
+  "sheet_width": 324,
+  "sheet_height": 36,
+  "xorigin": 18,
+  "yorigin": 18,
+  "playback_speed": 15.0
+}

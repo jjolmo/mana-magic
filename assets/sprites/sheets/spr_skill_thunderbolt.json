@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_thunderbolt",
+  "frame_width": 124,
+  "frame_height": 124,
+  "columns": 10,
+  "rows": 3,
+  "total_frames": 22,
+  "sheet_width": 1240,
+  "sheet_height": 372,
+  "xorigin": 62,
+  "yorigin": 54,
+  "playback_speed": 60.0
+}

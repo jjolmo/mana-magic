@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_fireBouquet",
+  "frame_width": 90,
+  "frame_height": 90,
+  "columns": 10,
+  "rows": 3,
+  "total_frames": 21,
+  "sheet_width": 900,
+  "sheet_height": 270,
+  "xorigin": 45,
+  "yorigin": 45,
+  "playback_speed": 10.0
+}

@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c8d8ipd2gc4u2"]
+
+[ext_resource type="Script" uid="uid://6d0qwgxqnjwn" path="res://engine/systems/scene_the_end.gd" id="1_sc"]
+
+[node name="rom_end" type="Node2D" unique_id=645856430]
+
+[node name="Background" type="ColorRect" parent="." unique_id=1611068143]
+z_index = -200
+offset_right = 427.0
+offset_bottom = 240.0
+color = Color(0, 0, 0, 1)
+
+[node name="the_end_title" type="Node2D" parent="." unique_id=1512230800]
+position = Vector2(335, 197)
+
+[node name="scene_the_end" type="Node2D" parent="." unique_id=1025214311]
+script = ExtResource("1_sc")

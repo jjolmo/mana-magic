@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_saber_spark",
+  "frame_width": 20,
+  "frame_height": 20,
+  "columns": 8,
+  "rows": 1,
+  "total_frames": 8,
+  "sheet_width": 160,
+  "sheet_height": 20,
+  "xorigin": 10,
+  "yorigin": 10,
+  "playback_speed": 10.0
+}

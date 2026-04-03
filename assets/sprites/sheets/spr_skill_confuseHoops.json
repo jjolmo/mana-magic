@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_confuseHoops",
+  "frame_width": 32,
+  "frame_height": 32,
+  "columns": 9,
+  "rows": 1,
+  "total_frames": 9,
+  "sheet_width": 288,
+  "sheet_height": 32,
+  "xorigin": 16,
+  "yorigin": 16,
+  "playback_speed": 60.0
+}

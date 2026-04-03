@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_gemMissile_spark",
+  "frame_width": 32,
+  "frame_height": 32,
+  "columns": 4,
+  "rows": 1,
+  "total_frames": 4,
+  "sheet_width": 128,
+  "sheet_height": 32,
+  "xorigin": 16,
+  "yorigin": 16,
+  "playback_speed": 15.0
+}

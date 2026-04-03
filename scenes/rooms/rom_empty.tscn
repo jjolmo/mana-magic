@@ -1,0 +1,10 @@
+[gd_scene load_steps=1 format=3]
+
+[node name="rom_empty" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+z_index = -200
+anchors_preset = 15
+offset_right = 500.0
+offset_bottom = 300.0
+color = Color(0.000, 0.000, 0.000, 1.000)

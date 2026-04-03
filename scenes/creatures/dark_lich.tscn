@@ -1,0 +1,54 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://fqgmcpp4i0rq" path="res://engine/creatures/boss_dark_lich.gd" id="1"]
+[ext_resource type="Script" uid="uid://dpjoxpyn4m8ga" path="res://engine/core/state_machine.gd" id="2"]
+[ext_resource type="Script" uid="uid://b3cwhi3wbpvyu" path="res://engine/creatures/states/boss_dark_lich_stand.gd" id="3"]
+[ext_resource type="Script" uid="uid://b72wtv3nnvf25" path="res://engine/creatures/states/boss_dark_lich_attack.gd" id="4"]
+[ext_resource type="Script" uid="uid://bdtt7bfdk7avl" path="res://engine/creatures/states/boss_dark_lich_hit.gd" id="5"]
+[ext_resource type="Script" uid="uid://by2g275gmont7" path="res://engine/creatures/states/boss_dark_lich_cast.gd" id="6"]
+[ext_resource type="Script" uid="uid://da5qaq8211qm5" path="res://engine/creatures/states/boss_dark_lich_fade.gd" id="7"]
+[ext_resource type="Script" uid="uid://cri25b7uk1b6n" path="res://engine/creatures/states/boss_dark_lich_dead.gd" id="8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_boss"]
+size = Vector2(24, 16)
+
+[node name="DarkLich" type="CharacterBody2D"]
+motion_mode = 1
+collision_layer = 4
+collision_mask = 3
+script = ExtResource("1")
+
+[node name="WaistSprite" type="Sprite2D" parent="."]
+z_index = -1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Shadow" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0, 0.3)
+z_index = -1
+position = Vector2(0, 6)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_boss")
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("2")
+initial_state = NodePath("DLStand")
+
+[node name="DLStand" type="Node" parent="StateMachine"]
+script = ExtResource("3")
+
+[node name="DLAttack" type="Node" parent="StateMachine"]
+script = ExtResource("4")
+
+[node name="DLHit" type="Node" parent="StateMachine"]
+script = ExtResource("5")
+
+[node name="DLCast" type="Node" parent="StateMachine"]
+script = ExtResource("6")
+
+[node name="DLFade" type="Node" parent="StateMachine"]
+script = ExtResource("7")
+
+[node name="Dead" type="Node" parent="StateMachine"]
+script = ExtResource("8")

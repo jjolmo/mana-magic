@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_cureWater",
+  "frame_width": 128,
+  "frame_height": 128,
+  "columns": 11,
+  "rows": 3,
+  "total_frames": 33,
+  "sheet_width": 1408,
+  "sheet_height": 384,
+  "xorigin": 64,
+  "yorigin": 90,
+  "playback_speed": 60.0
+}

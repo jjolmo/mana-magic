@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://baslcw2t170t1" path="res://engine/combat/summon_effect.gd" id="1"]
+
+[node name="SummonEffect" type="Node2D"]
+script = ExtResource("1")

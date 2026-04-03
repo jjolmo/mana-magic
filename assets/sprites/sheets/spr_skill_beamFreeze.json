@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_beamFreeze",
+  "frame_width": 58,
+  "frame_height": 5,
+  "columns": 1,
+  "rows": 1,
+  "total_frames": 1,
+  "sheet_width": 58,
+  "sheet_height": 5,
+  "xorigin": 29,
+  "yorigin": 2,
+  "playback_speed": 15.0
+}

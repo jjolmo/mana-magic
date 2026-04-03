@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_thunderbolt_burst",
+  "frame_width": 32,
+  "frame_height": 32,
+  "columns": 10,
+  "rows": 2,
+  "total_frames": 19,
+  "sheet_width": 320,
+  "sheet_height": 64,
+  "xorigin": 16,
+  "yorigin": 16,
+  "playback_speed": 60.0
+}

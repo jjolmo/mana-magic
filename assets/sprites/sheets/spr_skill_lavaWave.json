@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_lavaWave",
+  "frame_width": 57,
+  "frame_height": 57,
+  "columns": 10,
+  "rows": 2,
+  "total_frames": 13,
+  "sheet_width": 570,
+  "sheet_height": 114,
+  "xorigin": 28,
+  "yorigin": 28,
+  "playback_speed": 60.0
+}

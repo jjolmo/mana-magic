@@ -1,0 +1,13 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://duywjyprhkx4p" path="res://engine/systems/scene_intro.gd" id="1_sc"]
+
+[node name="rom_intro" type="Node2D"]
+script = ExtResource("1_sc")
+
+[node name="Background" type="ColorRect" parent="."]
+z_index = -200
+anchors_preset = 15
+offset_right = 427.0
+offset_bottom = 240.0
+color = Color(0.000, 0.000, 0.000, 1.000)

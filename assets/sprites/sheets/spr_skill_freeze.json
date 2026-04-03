@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_freeze",
+  "frame_width": 124,
+  "frame_height": 160,
+  "columns": 10,
+  "rows": 2,
+  "total_frames": 20,
+  "sheet_width": 1240,
+  "sheet_height": 320,
+  "xorigin": 61,
+  "yorigin": 115,
+  "playback_speed": 60.0
+}

@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_arrow",
+  "frame_width": 16,
+  "frame_height": 16,
+  "columns": 2,
+  "rows": 1,
+  "total_frames": 2,
+  "sheet_width": 32,
+  "sheet_height": 16,
+  "xorigin": 8,
+  "yorigin": 8
+}

@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_acidStorm_dot",
+  "frame_width": 20,
+  "frame_height": 20,
+  "columns": 4,
+  "rows": 1,
+  "total_frames": 4,
+  "sheet_width": 80,
+  "sheet_height": 20,
+  "xorigin": 10,
+  "yorigin": 10,
+  "playback_speed": 10.0
+}

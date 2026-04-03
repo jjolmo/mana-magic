@@ -1,0 +1,80 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://1icdqk83glsg" path="res://engine/creatures/mob.gd" id="1"]
+[ext_resource type="Script" uid="uid://dpjoxpyn4m8ga" path="res://engine/core/state_machine.gd" id="2"]
+[ext_resource type="Script" uid="uid://ccufljo4ebdu4" path="res://engine/creatures/states/mob_stand.gd" id="3"]
+[ext_resource type="Script" uid="uid://cbbftog86cid1" path="res://engine/creatures/states/mob_wander.gd" id="4"]
+[ext_resource type="Script" uid="uid://dppw4ewsop1vr" path="res://engine/creatures/states/mob_attack.gd" id="5"]
+[ext_resource type="Script" uid="uid://myygu7ur7n1e" path="res://engine/creatures/states/mob_hit.gd" id="6"]
+[ext_resource type="Script" uid="uid://cp7k22wbp0tgb" path="res://engine/creatures/states/mob_dead.gd" id="7"]
+[ext_resource type="Script" uid="uid://bumyu2y7vq6pc" path="res://engine/creatures/states/mob_chase.gd" id="8"]
+[ext_resource type="Script" uid="uid://cu3svnd43even" path="res://engine/creatures/states/mob_parry.gd" id="9"]
+[ext_resource type="Script" uid="uid://d3mgsdech83be" path="res://engine/creatures/states/mob_summon.gd" id="10"]
+[ext_resource type="Script" uid="uid://dvh64luyvh400" path="res://engine/creatures/states/mob_animation.gd" id="11"]
+[ext_resource type="Script" uid="uid://f1qxxaips157" path="res://engine/creatures/states/rabite_wander.gd" id="12"]
+[ext_resource type="Script" uid="uid://bhid1n8dmpvfh" path="res://engine/creatures/states/rabite_chase.gd" id="13"]
+[ext_resource type="Script" uid="uid://c04whht1jp21u" path="res://engine/creatures/states/rabite_attack.gd" id="14"]
+[ext_resource type="Script" uid="uid://10gck31wv1c" path="res://engine/creatures/states/rabite_avoid.gd" id="15"]
+
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mob"]
+size = Vector2(14, 10)
+
+[node name="Mob" type="CharacterBody2D"]
+motion_mode = 1
+collision_layer = 4
+collision_mask = 3
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Shadow" type="Sprite2D" parent="."]
+modulate = Color(0, 0, 0, 0.3)
+z_index = -1
+position = Vector2(0, -1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_mob")
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("2")
+initial_state = NodePath("Stand")
+
+[node name="Stand" type="Node" parent="StateMachine"]
+script = ExtResource("3")
+
+[node name="Wander" type="Node" parent="StateMachine"]
+script = ExtResource("4")
+
+[node name="Attack" type="Node" parent="StateMachine"]
+script = ExtResource("5")
+
+[node name="Hit" type="Node" parent="StateMachine"]
+script = ExtResource("6")
+
+[node name="Dead" type="Node" parent="StateMachine"]
+script = ExtResource("7")
+
+[node name="Chase" type="Node" parent="StateMachine"]
+script = ExtResource("8")
+
+[node name="Parry" type="Node" parent="StateMachine"]
+script = ExtResource("9")
+
+[node name="Summon" type="Node" parent="StateMachine"]
+script = ExtResource("10")
+
+[node name="Animation" type="Node" parent="StateMachine"]
+script = ExtResource("11")
+
+[node name="RabiteWander" type="Node" parent="StateMachine"]
+script = ExtResource("12")
+
+[node name="RabiteChase" type="Node" parent="StateMachine"]
+script = ExtResource("13")
+
+[node name="RabiteAttack" type="Node" parent="StateMachine"]
+script = ExtResource("14")
+
+[node name="RabiteAvoid" type="Node" parent="StateMachine"]
+script = ExtResource("15")

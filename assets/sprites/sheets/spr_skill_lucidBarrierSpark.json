@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_lucidBarrierSpark",
+  "frame_width": 76,
+  "frame_height": 76,
+  "columns": 10,
+  "rows": 1,
+  "total_frames": 10,
+  "sheet_width": 760,
+  "sheet_height": 76,
+  "xorigin": 38,
+  "yorigin": 38,
+  "playback_speed": 60.0
+}

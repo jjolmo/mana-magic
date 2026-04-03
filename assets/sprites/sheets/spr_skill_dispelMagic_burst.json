@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_dispelMagic_burst",
+  "frame_width": 36,
+  "frame_height": 36,
+  "columns": 7,
+  "rows": 1,
+  "total_frames": 7,
+  "sheet_width": 252,
+  "sheet_height": 36,
+  "xorigin": 18,
+  "yorigin": 18,
+  "playback_speed": 60.0
+}

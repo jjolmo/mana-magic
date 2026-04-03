@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_revivifierSpark",
+  "frame_width": 50,
+  "frame_height": 66,
+  "columns": 10,
+  "rows": 2,
+  "total_frames": 14,
+  "sheet_width": 500,
+  "sheet_height": 132,
+  "xorigin": 25,
+  "yorigin": 33,
+  "playback_speed": 10.0
+}

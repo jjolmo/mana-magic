@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://dbe67vnwpgam3"
+path="res://.godot/imported/font_consolas.fnt-e1358fe81bedd9ad60303d14b2cefc6d.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/font_consolas.fnt"
+dest_files=["res://.godot/imported/font_consolas.fnt-e1358fe81bedd9ad60303d14b2cefc6d.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

@@ -1,0 +1,49 @@
+[gd_scene format=3]
+
+[ext_resource type="TileSet" uid="uid://brfwxhajx1o26" path="res://tilesets/til_fields.tres" id="1_ts"]
+[ext_resource type="Script" uid="uid://ckk6tcv3gy08d" path="res://engine/systems/starting_point.gd" id="2_sc"]
+[ext_resource type="Script" uid="uid://euwnhuj3rk1c" path="res://engine/systems/scene_cutscene_test.gd" id="3_sc"]
+
+[sub_resource type="RectangleShape2D" id="wall_h"]
+size = Vector2(512.0, 16.0)
+
+[sub_resource type="RectangleShape2D" id="wall_v"]
+size = Vector2(16.0, 512.0)
+
+[node name="rom_cutscene_test" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+z_index = -200
+offset_right = 512.0
+offset_bottom = 512.0
+color = Color(0.08, 0.12, 0.08, 1)
+
+[node name="til_ground" type="TileMapLayer" parent="."]
+tile_set = ExtResource("1_ts")
+z_index = -100
+
+[node name="collisions" type="StaticBody2D" parent="."]
+collision_layer = 1
+
+[node name="wall_top" type="CollisionShape2D" parent="collisions"]
+position = Vector2(256.0, 0.0)
+shape = SubResource("wall_h")
+
+[node name="wall_bottom" type="CollisionShape2D" parent="collisions"]
+position = Vector2(256.0, 512.0)
+shape = SubResource("wall_h")
+
+[node name="wall_left" type="CollisionShape2D" parent="collisions"]
+position = Vector2(0.0, 256.0)
+shape = SubResource("wall_v")
+
+[node name="wall_right" type="CollisionShape2D" parent="collisions"]
+position = Vector2(512.0, 256.0)
+shape = SubResource("wall_v")
+
+[node name="starting_point" type="Node2D" parent="."]
+script = ExtResource("2_sc")
+position = Vector2(256.0, 256.0)
+
+[node name="scene_cutscene_test" type="Node2D" parent="."]
+script = ExtResource("3_sc")

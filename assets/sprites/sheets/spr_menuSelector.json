@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_menuSelector",
+  "frame_width": 22,
+  "frame_height": 22,
+  "columns": 7,
+  "rows": 1,
+  "total_frames": 7,
+  "sheet_width": 154,
+  "sheet_height": 22,
+  "xorigin": 11,
+  "yorigin": 11
+}

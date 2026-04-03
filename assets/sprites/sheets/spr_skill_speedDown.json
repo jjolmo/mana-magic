@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_speedDown",
+  "frame_width": 65,
+  "frame_height": 65,
+  "columns": 10,
+  "rows": 5,
+  "total_frames": 41,
+  "sheet_width": 650,
+  "sheet_height": 325,
+  "xorigin": 32,
+  "yorigin": 32,
+  "playback_speed": 10.0
+}

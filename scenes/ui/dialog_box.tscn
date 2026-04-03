@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://6i2cia4vwc6j" path="res://engine/ui/dialog_box.gd" id="1"]
+
+
+[node name="DialogBoxLayer" type="CanvasLayer"]
+layer = 25
+
+[node name="DialogBox" type="Control" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")

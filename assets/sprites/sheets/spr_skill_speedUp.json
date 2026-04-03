@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_speedUp",
+  "frame_width": 90,
+  "frame_height": 90,
+  "columns": 10,
+  "rows": 6,
+  "total_frames": 60,
+  "sheet_width": 900,
+  "sheet_height": 540,
+  "xorigin": 45,
+  "yorigin": 45,
+  "playback_speed": 60.0
+}

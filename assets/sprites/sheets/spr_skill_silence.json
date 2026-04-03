@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_silence",
+  "frame_width": 80,
+  "frame_height": 80,
+  "columns": 10,
+  "rows": 3,
+  "total_frames": 24,
+  "sheet_width": 800,
+  "sheet_height": 240,
+  "xorigin": 40,
+  "yorigin": 40,
+  "playback_speed": 60.0
+}

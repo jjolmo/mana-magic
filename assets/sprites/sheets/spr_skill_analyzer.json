@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_analyzer",
+  "frame_width": 100,
+  "frame_height": 100,
+  "columns": 10,
+  "rows": 4,
+  "total_frames": 34,
+  "sheet_width": 1000,
+  "sheet_height": 400,
+  "xorigin": 50,
+  "yorigin": 50,
+  "playback_speed": 15.0
+}

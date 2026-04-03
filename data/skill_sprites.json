@@ -1,0 +1,542 @@
+{
+  "spr_magic_dryad": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 10,
+    "total_frames": 11,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 15.0
+  },
+  "spr_magic_gnome": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 8,
+    "total_frames": 8,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 15.0
+  },
+  "spr_magic_lumina": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 10,
+    "total_frames": 12,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 15.0
+  },
+  "spr_magic_luna": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 8,
+    "total_frames": 8,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 15.0
+  },
+  "spr_magic_salamando": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 10,
+    "total_frames": 13,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 15.0
+  },
+  "spr_magic_shade": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 10,
+    "total_frames": 13,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 15.0
+  },
+  "spr_magic_summon": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 9,
+    "total_frames": 9,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 15.0
+  },
+  "spr_magic_sylphid": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 9,
+    "total_frames": 9,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 15.0
+  },
+  "spr_magic_undine": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 10,
+    "total_frames": 11,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 15.0
+  },
+  "spr_skill_acidStorm_dot": {
+    "frame_width": 20,
+    "frame_height": 20,
+    "columns": 4,
+    "total_frames": 4,
+    "xorigin": 10,
+    "yorigin": 10,
+    "playback_speed": 10.0
+  },
+  "spr_skill_airBlast": {
+    "frame_width": 20,
+    "frame_height": 20,
+    "columns": 3,
+    "total_frames": 3,
+    "xorigin": 10,
+    "yorigin": 10,
+    "playback_speed": 15.0
+  },
+  "spr_skill_analyzer": {
+    "frame_width": 100,
+    "frame_height": 100,
+    "columns": 10,
+    "total_frames": 34,
+    "xorigin": 50,
+    "yorigin": 50,
+    "playback_speed": 15.0
+  },
+  "spr_skill_balloonRing": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 10,
+    "total_frames": 12,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 60.0
+  },
+  "spr_skill_balloonRing_balloon": {
+    "frame_width": 54,
+    "frame_height": 54,
+    "columns": 8,
+    "total_frames": 8,
+    "xorigin": 27,
+    "yorigin": 53,
+    "playback_speed": 60.0
+  },
+  "spr_skill_beamFreeze": {
+    "frame_width": 58,
+    "frame_height": 5,
+    "columns": 1,
+    "total_frames": 1,
+    "xorigin": 29,
+    "yorigin": 2,
+    "playback_speed": 15.0
+  },
+  "spr_skill_blazeWall": {
+    "frame_width": 64,
+    "frame_height": 64,
+    "columns": 10,
+    "total_frames": 24,
+    "xorigin": 32,
+    "yorigin": 32,
+    "playback_speed": 10.0
+  },
+  "spr_skill_burst": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 6,
+    "total_frames": 6,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 10.0
+  },
+  "spr_skill_confuseHoops": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 9,
+    "total_frames": 9,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 60.0
+  },
+  "spr_skill_cureWater": {
+    "frame_width": 128,
+    "frame_height": 128,
+    "columns": 11,
+    "total_frames": 33,
+    "xorigin": 64,
+    "yorigin": 90,
+    "playback_speed": 60.0
+  },
+  "spr_skill_darkForce": {
+    "frame_width": 20,
+    "frame_height": 20,
+    "columns": 10,
+    "total_frames": 26,
+    "xorigin": 10,
+    "yorigin": 10,
+    "playback_speed": 15.0
+  },
+  "spr_skill_darkForce_burst": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 6,
+    "total_frames": 6,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 15.0
+  },
+  "spr_skill_defender": {
+    "frame_width": 90,
+    "frame_height": 90,
+    "columns": 10,
+    "total_frames": 34,
+    "xorigin": 45,
+    "yorigin": 45,
+    "playback_speed": 60.0
+  },
+  "spr_skill_dispelMagic": {
+    "frame_width": 104,
+    "frame_height": 104,
+    "columns": 10,
+    "total_frames": 22,
+    "xorigin": 52,
+    "yorigin": 52,
+    "playback_speed": 60.0
+  },
+  "spr_skill_dispelMagic_burst": {
+    "frame_width": 36,
+    "frame_height": 36,
+    "columns": 7,
+    "total_frames": 7,
+    "xorigin": 18,
+    "yorigin": 18,
+    "playback_speed": 60.0
+  },
+  "spr_skill_earthSlide": {
+    "frame_width": 74,
+    "frame_height": 74,
+    "columns": 8,
+    "total_frames": 8,
+    "xorigin": 37,
+    "yorigin": 37,
+    "playback_speed": 60.0
+  },
+  "spr_skill_energyAbsorb": {
+    "frame_width": 16,
+    "frame_height": 16,
+    "columns": 10,
+    "total_frames": 10,
+    "xorigin": 8,
+    "yorigin": 8,
+    "playback_speed": 60.0
+  },
+  "spr_skill_evilGate": {
+    "frame_width": 48,
+    "frame_height": 48,
+    "columns": 10,
+    "total_frames": 15,
+    "xorigin": 24,
+    "yorigin": 24,
+    "playback_speed": 60.0
+  },
+  "spr_skill_exploder": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 6,
+    "total_frames": 6,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 10.0
+  },
+  "spr_skill_fireBouquet": {
+    "frame_width": 90,
+    "frame_height": 90,
+    "columns": 10,
+    "total_frames": 21,
+    "xorigin": 45,
+    "yorigin": 45,
+    "playback_speed": 10.0
+  },
+  "spr_skill_fireball": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 4,
+    "total_frames": 4,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 60.0
+  },
+  "spr_skill_fireball2": {
+    "frame_width": 64,
+    "frame_height": 64,
+    "columns": 10,
+    "total_frames": 14,
+    "xorigin": 32,
+    "yorigin": 60,
+    "playback_speed": 15.0
+  },
+  "spr_skill_freeze": {
+    "frame_width": 124,
+    "frame_height": 160,
+    "columns": 10,
+    "total_frames": 20,
+    "xorigin": 61,
+    "yorigin": 115,
+    "playback_speed": 60.0
+  },
+  "spr_skill_gemMissile_bullet": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 5,
+    "total_frames": 5,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 60.0
+  },
+  "spr_skill_gemMissile_smoke": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 4,
+    "total_frames": 4,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 15.0
+  },
+  "spr_skill_gemMissile_spark": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 4,
+    "total_frames": 4,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 15.0
+  },
+  "spr_skill_lavaWave": {
+    "frame_width": 57,
+    "frame_height": 57,
+    "columns": 10,
+    "total_frames": 13,
+    "xorigin": 28,
+    "yorigin": 28,
+    "playback_speed": 60.0
+  },
+  "spr_skill_lucentBeam": {
+    "frame_width": 200,
+    "frame_height": 200,
+    "columns": 10,
+    "total_frames": 31,
+    "xorigin": 100,
+    "yorigin": 100,
+    "playback_speed": 60.0
+  },
+  "spr_skill_lucidBarrier": {
+    "frame_width": 39,
+    "frame_height": 39,
+    "columns": 5,
+    "total_frames": 5,
+    "xorigin": 19,
+    "yorigin": 19,
+    "playback_speed": 60.0
+  },
+  "spr_skill_lucidBarrierSpark": {
+    "frame_width": 76,
+    "frame_height": 76,
+    "columns": 10,
+    "total_frames": 10,
+    "xorigin": 38,
+    "yorigin": 38,
+    "playback_speed": 60.0
+  },
+  "spr_skill_lunarBoost": {
+    "frame_width": 48,
+    "frame_height": 48,
+    "columns": 10,
+    "total_frames": 18,
+    "xorigin": 24,
+    "yorigin": 24,
+    "playback_speed": 15.0
+  },
+  "spr_skill_lunarMagic": {
+    "frame_width": 78,
+    "frame_height": 78,
+    "columns": 10,
+    "total_frames": 18,
+    "xorigin": 39,
+    "yorigin": 39,
+    "playback_speed": 60.0
+  },
+  "spr_skill_magicAbsorb": {
+    "frame_width": 16,
+    "frame_height": 16,
+    "columns": 10,
+    "total_frames": 10,
+    "xorigin": 8,
+    "yorigin": 8,
+    "playback_speed": 60.0
+  },
+  "spr_skill_manaMagic": {
+    "frame_width": 63,
+    "frame_height": 95,
+    "columns": 10,
+    "total_frames": 23,
+    "xorigin": 31,
+    "yorigin": 70,
+    "playback_speed": 60.0
+  },
+  "spr_skill_manaMagicSpark": {
+    "frame_width": 248,
+    "frame_height": 248,
+    "columns": 10,
+    "total_frames": 64,
+    "xorigin": 124,
+    "yorigin": 124,
+    "playback_speed": 60.0
+  },
+  "spr_skill_moonEnergy": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 5,
+    "total_frames": 5,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 10.0
+  },
+  "spr_skill_poisonGas": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 6,
+    "total_frames": 6,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 15.0
+  },
+  "spr_skill_remedy": {
+    "frame_width": 56,
+    "frame_height": 107,
+    "columns": 10,
+    "total_frames": 65,
+    "xorigin": 27,
+    "yorigin": 91,
+    "playback_speed": 60.0
+  },
+  "spr_skill_revivifier": {
+    "frame_width": 64,
+    "frame_height": 64,
+    "columns": 10,
+    "total_frames": 34,
+    "xorigin": 32,
+    "yorigin": 32,
+    "playback_speed": 15.0
+  },
+  "spr_skill_revivifierSpark": {
+    "frame_width": 50,
+    "frame_height": 66,
+    "columns": 10,
+    "total_frames": 14,
+    "xorigin": 25,
+    "yorigin": 33,
+    "playback_speed": 10.0
+  },
+  "spr_skill_saber_spark": {
+    "frame_width": 20,
+    "frame_height": 20,
+    "columns": 8,
+    "total_frames": 8,
+    "xorigin": 10,
+    "yorigin": 10,
+    "playback_speed": 10.0
+  },
+  "spr_skill_saber_swords": {
+    "frame_width": 98,
+    "frame_height": 98,
+    "columns": 10,
+    "total_frames": 47,
+    "xorigin": 49,
+    "yorigin": 60,
+    "playback_speed": 60.0
+  },
+  "spr_skill_silence": {
+    "frame_width": 80,
+    "frame_height": 80,
+    "columns": 10,
+    "total_frames": 24,
+    "xorigin": 40,
+    "yorigin": 40,
+    "playback_speed": 60.0
+  },
+  "spr_skill_sleepFlower": {
+    "frame_width": 68,
+    "frame_height": 68,
+    "columns": 10,
+    "total_frames": 22,
+    "xorigin": 34,
+    "yorigin": 34,
+    "playback_speed": 10.0
+  },
+  "spr_skill_sleepGas": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 6,
+    "total_frames": 6,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 15.0
+  },
+  "spr_skill_speedDown": {
+    "frame_width": 65,
+    "frame_height": 65,
+    "columns": 10,
+    "total_frames": 41,
+    "xorigin": 32,
+    "yorigin": 32,
+    "playback_speed": 10.0
+  },
+  "spr_skill_speedUp": {
+    "frame_width": 90,
+    "frame_height": 90,
+    "columns": 10,
+    "total_frames": 60,
+    "xorigin": 45,
+    "yorigin": 45,
+    "playback_speed": 60.0
+  },
+  "spr_skill_thunderbolt": {
+    "frame_width": 124,
+    "frame_height": 124,
+    "columns": 10,
+    "total_frames": 22,
+    "xorigin": 62,
+    "yorigin": 54,
+    "playback_speed": 60.0
+  },
+  "spr_skill_thunderbolt_burst": {
+    "frame_width": 32,
+    "frame_height": 32,
+    "columns": 10,
+    "total_frames": 19,
+    "xorigin": 16,
+    "yorigin": 16,
+    "playback_speed": 60.0
+  },
+  "spr_skill_wall": {
+    "frame_width": 39,
+    "frame_height": 39,
+    "columns": 5,
+    "total_frames": 5,
+    "xorigin": 19,
+    "yorigin": 19,
+    "playback_speed": 60.0
+  },
+  "spr_skill_wallSpark": {
+    "frame_width": 76,
+    "frame_height": 76,
+    "columns": 10,
+    "total_frames": 10,
+    "xorigin": 38,
+    "yorigin": 38,
+    "playback_speed": 60.0
+  }
+}

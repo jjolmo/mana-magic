@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_manaMagicSpark",
+  "frame_width": 248,
+  "frame_height": 248,
+  "columns": 10,
+  "rows": 7,
+  "total_frames": 64,
+  "sheet_width": 2480,
+  "sheet_height": 1736,
+  "xorigin": 124,
+  "yorigin": 124,
+  "playback_speed": 60.0
+}

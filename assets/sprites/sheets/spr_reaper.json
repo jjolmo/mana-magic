@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_reaper",
+  "frame_width": 32,
+  "frame_height": 32,
+  "columns": 2,
+  "rows": 1,
+  "total_frames": 2,
+  "sheet_width": 64,
+  "sheet_height": 32,
+  "xorigin": 15,
+  "yorigin": 25
+}

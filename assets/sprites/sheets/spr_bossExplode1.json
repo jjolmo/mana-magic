@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_bossExplode1",
+  "frame_width": 30,
+  "frame_height": 28,
+  "columns": 8,
+  "rows": 1,
+  "total_frames": 8,
+  "sheet_width": 240,
+  "sheet_height": 28,
+  "xorigin": 15,
+  "yorigin": 14
+}

@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_lunarMagic",
+  "frame_width": 78,
+  "frame_height": 78,
+  "columns": 10,
+  "rows": 2,
+  "total_frames": 18,
+  "sheet_width": 780,
+  "sheet_height": 156,
+  "xorigin": 39,
+  "yorigin": 39,
+  "playback_speed": 60.0
+}

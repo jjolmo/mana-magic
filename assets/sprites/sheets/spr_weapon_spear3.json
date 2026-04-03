@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_weapon_spear3",
+  "frame_width": 108,
+  "frame_height": 108,
+  "columns": 10,
+  "rows": 2,
+  "total_frames": 16,
+  "sheet_width": 1080,
+  "sheet_height": 216,
+  "xorigin": 53,
+  "yorigin": 54,
+  "playback_speed": 60.0
+}

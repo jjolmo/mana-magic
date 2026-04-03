@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_revivifier",
+  "frame_width": 64,
+  "frame_height": 64,
+  "columns": 10,
+  "rows": 4,
+  "total_frames": 34,
+  "sheet_width": 640,
+  "sheet_height": 256,
+  "xorigin": 32,
+  "yorigin": 32,
+  "playback_speed": 15.0
+}

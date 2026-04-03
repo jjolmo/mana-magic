@@ -1,0 +1,461 @@
+[
+  {
+    "id": 0,
+    "name": "faerieCrown",
+    "nameText": "Faerie Crown",
+    "description": "",
+    "subimage": 36,
+    "subimageTotal": 1,
+    "kind": 1,
+    "subkind": -1,
+    "class": [
+      3
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "value": 150
+      }
+    ],
+    "auxData": {},
+    "elementalProtection": [
+      0
+    ],
+    "elementalAtunement": [
+      2
+    ],
+    "elementalWeakness": [
+      4,
+      5
+    ],
+    "price": 9500
+  },
+  {
+    "id": 1,
+    "name": "needleHelm",
+    "nameText": "Needle Helm",
+    "description": "",
+    "subimage": 37,
+    "subimageTotal": 1,
+    "kind": 1,
+    "subkind": -1,
+    "class": [
+      1,
+      2,
+      3
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "value": 140
+      }
+    ],
+    "auxData": {},
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 11500
+  },
+  {
+    "id": 2,
+    "name": "faerieRing",
+    "nameText": "Faerie's Ring",
+    "description": "",
+    "subimage": 38,
+    "subimageTotal": 1,
+    "kind": 2,
+    "subkind": -1,
+    "class": [
+      1,
+      2,
+      3
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "value": 100
+      }
+    ],
+    "auxData": {},
+    "elementalProtection": [
+      0
+    ],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 25000
+  },
+  {
+    "id": 3,
+    "name": "amuletRing",
+    "nameText": "Amulet Ring",
+    "description": "",
+    "subimage": 39,
+    "subimageTotal": 1,
+    "kind": 2,
+    "subkind": -1,
+    "class": [
+      1,
+      2,
+      3
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "value": 95
+      },
+      {
+        "id": 5,
+        "value": 19
+      }
+    ],
+    "auxData": {},
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 44000
+  },
+  {
+    "id": 4,
+    "name": "vestguard",
+    "nameText": "Vestguard",
+    "description": "",
+    "subimage": 40,
+    "subimageTotal": 1,
+    "kind": 3,
+    "subkind": -1,
+    "class": [
+      1
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "value": 240
+      }
+    ],
+    "auxData": {},
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 56000
+  },
+  {
+    "id": 5,
+    "name": "vampireCape",
+    "nameText": "Vampire's Cape",
+    "description": "",
+    "subimage": 41,
+    "subimageTotal": 1,
+    "kind": 3,
+    "subkind": -1,
+    "class": [
+      2,
+      3
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "value": 243
+      }
+    ],
+    "auxData": {},
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 52000
+  },
+  {
+    "id": 6,
+    "name": "faerieCloak",
+    "nameText": "Faerie Cloak",
+    "description": "",
+    "subimage": 42,
+    "subimageTotal": 1,
+    "kind": 3,
+    "subkind": -1,
+    "class": [
+      1,
+      2,
+      3
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "value": 250
+      }
+    ],
+    "auxData": {},
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 49500
+  },
+  {
+    "id": 7,
+    "name": "sageRobe",
+    "nameText": "Sage Robe",
+    "description": "",
+    "subimage": 43,
+    "subimageTotal": 1,
+    "kind": 3,
+    "subkind": -1,
+    "class": [
+      1,
+      2,
+      3
+    ],
+    "attributes": [
+      {
+        "id": 1,
+        "value": 230
+      }
+    ],
+    "auxData": {},
+    "elementalProtection": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 39500
+  },
+  {
+    "id": 8,
+    "name": "dragonBuster",
+    "nameText": "Dragon Buster",
+    "description": "Effective against dragons.",
+    "subimage": 19,
+    "subimageTotal": 1,
+    "kind": 0,
+    "subkind": 19,
+    "class": [
+      -1
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "value": 111
+      }
+    ],
+    "auxData": {
+      "weaponRadius": 25,
+      "attackAnimationType": 0,
+      "isProjectile": false,
+      "weaponKindName": "Sword",
+      "weaponSound": "snd_sword",
+      "weaponSoundHit": "snd_hit1",
+      "weaponHitbox": "weaponHitbox_sword",
+      "imageAttackSpeed": 0.24,
+      "endAnimTimeout": 16
+    },
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 0
+  },
+  {
+    "id": 9,
+    "name": "doomAxe",
+    "nameText": "Doom Axe",
+    "description": "The top axe!",
+    "subimage": 20,
+    "subimageTotal": 1,
+    "kind": 0,
+    "subkind": 20,
+    "class": [
+      -1
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "value": 115
+      }
+    ],
+    "auxData": {
+      "weaponRadius": 25,
+      "attackAnimationType": 0,
+      "isProjectile": false,
+      "weaponKindName": "Axe",
+      "weaponSound": "snd_axe",
+      "weaponSoundHit": "snd_hit1",
+      "weaponHitbox": "weaponHitbox_axe",
+      "imageAttackSpeed": 0.17,
+      "endAnimTimeout": 16
+    },
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 0
+  },
+  {
+    "id": 10,
+    "name": "daedlusLance",
+    "nameText": "Daedlus Lance",
+    "description": "The top spear!",
+    "subimage": 21,
+    "subimageTotal": 1,
+    "kind": 0,
+    "subkind": 21,
+    "class": [
+      -1
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "value": 115
+      }
+    ],
+    "auxData": {
+      "weaponRadius": 25,
+      "attackAnimationType": 1,
+      "isProjectile": false,
+      "weaponKindName": "Spear",
+      "weaponSound": "snd_spear",
+      "weaponSoundHit": "snd_hit2",
+      "weaponHitbox": "weaponHitbox_spear",
+      "imageAttackSpeed": 0.14,
+      "endAnimTimeout": 16
+    },
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 0
+  },
+  {
+    "id": 11,
+    "name": "gigasFlail",
+    "nameText": "Gigas Flail",
+    "description": "The top whip!",
+    "subimage": 22,
+    "subimageTotal": 1,
+    "kind": 0,
+    "subkind": 22,
+    "class": [
+      -1
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "value": 112
+      }
+    ],
+    "auxData": {
+      "weaponRadius": 50,
+      "attackAnimationType": 0,
+      "isProjectile": false,
+      "weaponKindName": "Whip",
+      "weaponSound": "snd_whip",
+      "weaponSoundHit": "snd_hit2",
+      "weaponHitbox": "weaponHitbox_whip",
+      "imageAttackSpeed": 0.08,
+      "endAnimTimeout": 16
+    },
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 0
+  },
+  {
+    "id": 12,
+    "name": "garudaBuster",
+    "nameText": "Garuda Buster",
+    "description": "The top bow!",
+    "subimage": 23,
+    "subimageTotal": 1,
+    "kind": 0,
+    "subkind": 23,
+    "class": [
+      -1
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "value": 113
+      }
+    ],
+    "auxData": {
+      "weaponRadius": 60,
+      "attackAnimationType": 3,
+      "isProjectile": true,
+      "weaponKindName": "Bow",
+      "weaponSound": "snd_bow",
+      "weaponSoundHit": "snd_hit1",
+      "weaponHitbox": "weaponHitbox_bow",
+      "imageAttackSpeed": 0.2,
+      "endAnimTimeout": 50
+    },
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 0
+  },
+  {
+    "id": 13,
+    "name": "ninjaTrump",
+    "nameText": "Ninja's Trump",
+    "description": "The top boomerang!",
+    "subimage": 24,
+    "subimageTotal": 1,
+    "kind": 0,
+    "subkind": 24,
+    "class": [
+      -1
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "value": 112
+      }
+    ],
+    "auxData": {
+      "weaponRadius": 50,
+      "attackAnimationType": 0,
+      "isProjectile": true,
+      "weaponKindName": "Boomerang",
+      "weaponSound": "snd_boomerang",
+      "weaponSoundHit": "snd_hit1",
+      "weaponHitbox": "",
+      "imageAttackSpeed": 0.08,
+      "endAnimTimeout": 40
+    },
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 0
+  },
+  {
+    "id": 14,
+    "name": "valkyrian",
+    "nameText": "Valkyrian",
+    "description": "The top javelin!",
+    "subimage": 25,
+    "subimageTotal": 1,
+    "kind": 0,
+    "subkind": 25,
+    "class": [
+      -1
+    ],
+    "attributes": [
+      {
+        "id": 0,
+        "value": 112
+      }
+    ],
+    "auxData": {
+      "weaponRadius": 60,
+      "attackAnimationType": 4,
+      "isProjectile": true,
+      "weaponKindName": "Javelin",
+      "weaponSound": "snd_javelin",
+      "weaponSoundHit": "snd_hit1",
+      "weaponHitbox": "",
+      "imageAttackSpeed": 0.24,
+      "endAnimTimeout": 30
+    },
+    "elementalProtection": [],
+    "elementalAtunement": [],
+    "elementalWeakness": [],
+    "price": 0
+  }
+]

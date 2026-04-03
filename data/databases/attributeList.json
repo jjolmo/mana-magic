@@ -1,0 +1,128 @@
+[
+  {
+    "id": 0,
+    "name": "strength",
+    "nameText": "Strength",
+    "nameTextShort": "STR"
+  },
+  {
+    "id": 1,
+    "name": "constitution",
+    "nameText": "Constitution",
+    "nameTextShort": "CON"
+  },
+  {
+    "id": 2,
+    "name": "agility",
+    "nameText": "Agility",
+    "nameTextShort": "AGI"
+  },
+  {
+    "id": 3,
+    "name": "luck",
+    "nameText": "Luck",
+    "nameTextShort": "LUK"
+  },
+  {
+    "id": 4,
+    "name": "intelligence",
+    "nameText": "Intelligence",
+    "nameTextShort": "INT"
+  },
+  {
+    "id": 5,
+    "name": "wisdom",
+    "nameText": "Wisdom",
+    "nameTextShort": "WIS"
+  },
+  {
+    "id": 6,
+    "name": "maxHP",
+    "nameText": "Max HP",
+    "nameTextShort": "HPmax"
+  },
+  {
+    "id": 7,
+    "name": "maxMP",
+    "nameText": "Max MP",
+    "nameTextShort": "MPmax"
+  },
+  {
+    "id": 8,
+    "name": "hp",
+    "nameText": "HP",
+    "nameTextShort": "HP"
+  },
+  {
+    "id": 9,
+    "name": "mp",
+    "nameText": "MP",
+    "nameTextShort": "MP"
+  },
+  {
+    "id": 10,
+    "name": "criticalRate",
+    "nameText": "Critical Rate",
+    "nameTextShort": "CRT"
+  },
+  {
+    "id": 11,
+    "name": "hpMultiplier",
+    "nameText": "HP Multiplier",
+    "nameTextShort": "HPMul"
+  },
+  {
+    "id": 12,
+    "name": "hpMultiplier2",
+    "nameText": "HP Multiplier2",
+    "nameTextShort": "HPMul2"
+  },
+  {
+    "id": 13,
+    "name": "hpExponential",
+    "nameText": "HP Exponential",
+    "nameTextShort": "HPExp"
+  },
+  {
+    "id": 14,
+    "name": "mpMultiplier",
+    "nameText": "MP Multiplier",
+    "nameTextShort": "MPMul"
+  },
+  {
+    "id": 15,
+    "name": "mpMultiplier2",
+    "nameText": "MP Multiplier2",
+    "nameTextShort": "MPMul2"
+  },
+  {
+    "id": 16,
+    "name": "mpDivisor",
+    "nameText": "MP Divisor",
+    "nameTextShort": "MPDiv"
+  },
+  {
+    "id": 17,
+    "name": "identifier",
+    "nameText": "Identifier",
+    "nameTextShort": "ID"
+  },
+  {
+    "id": 18,
+    "name": "magicWeakness",
+    "nameText": "Magic Weakness",
+    "nameTextShort": "MagWK"
+  },
+  {
+    "id": 19,
+    "name": "magicProtection",
+    "nameText": "Magic Protection",
+    "nameTextShort": "MagProt"
+  },
+  {
+    "id": 20,
+    "name": "magicAtunement",
+    "nameText": "Magic Atunement",
+    "nameTextShort": "MagATK"
+  }
+]

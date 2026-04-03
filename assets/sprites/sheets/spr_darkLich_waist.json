@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_darkLich_waist",
+  "frame_width": 128,
+  "frame_height": 128,
+  "columns": 16,
+  "rows": 6,
+  "total_frames": 84,
+  "sheet_width": 2048,
+  "sheet_height": 768,
+  "xorigin": 64,
+  "yorigin": 64
+}

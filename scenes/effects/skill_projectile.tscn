@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://dpiknv6abkmhf" path="res://engine/combat/skill_projectile.gd" id="1"]
+
+[node name="SkillProjectile" type="Node2D"]
+script = ExtResource("1")

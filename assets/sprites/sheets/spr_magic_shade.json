@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_magic_shade",
+  "frame_width": 36,
+  "frame_height": 36,
+  "columns": 10,
+  "rows": 2,
+  "total_frames": 13,
+  "sheet_width": 360,
+  "sheet_height": 72,
+  "xorigin": 18,
+  "yorigin": 18,
+  "playback_speed": 15.0
+}

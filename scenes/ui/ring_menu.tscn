@@ -1,0 +1,17 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://bjfve5bf5egs1" path="res://engine/ui/ring_menu.gd" id="1"]
+
+
+[node name="RingMenuLayer" type="CanvasLayer"]
+layer = 21
+
+[node name="RingMenu" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")

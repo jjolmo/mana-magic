@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bpce6rsg7e6ts"]
+
+[ext_resource type="Texture2D" uid="uid://daqlfmrw0jc6d" path="res://assets/animations/bosses/dark_lich/waist_waist.png" id="1_lkqlg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5huvp"]
+atlas = ExtResource("1_lkqlg")
+region = Rect2(0, 0, 128, 128)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y6qxq"]
+atlas = ExtResource("1_lkqlg")
+region = Rect2(128, 0, 128, 128)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_beemu"]
+atlas = ExtResource("1_lkqlg")
+region = Rect2(256, 0, 128, 128)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k8ft4"]
+atlas = ExtResource("1_lkqlg")
+region = Rect2(384, 0, 128, 128)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5huvp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y6qxq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_beemu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k8ft4")
+}],
+"loop": true,
+"name": &"waist",
+"speed": 6.0
+}]

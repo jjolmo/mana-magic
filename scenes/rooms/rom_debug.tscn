@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3]
+
+[sub_resource type="RectangleShape2D" id="shape_0"]
+size = Vector2(16, 16)
+
+[node name="rom_debug" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+z_index = -200
+anchors_preset = 15
+offset_right = 1000.0
+offset_bottom = 1000.0
+color = Color(0.302, 0.302, 0.302, 1.000)
+
+[node name="Collisions" type="StaticBody2D" parent="."]
+collision_layer = 1
+collision_mask = 0
+
+[node name="Col_0" type="CollisionShape2D" parent="Collisions"]
+position = Vector2(200.0, 424.0)
+shape = SubResource("shape_0")

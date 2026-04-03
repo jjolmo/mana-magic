@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_projectile_boomerang",
+  "frame_width": 19,
+  "frame_height": 19,
+  "columns": 2,
+  "rows": 1,
+  "total_frames": 2,
+  "sheet_width": 38,
+  "sheet_height": 19,
+  "xorigin": 9,
+  "yorigin": 9
+}

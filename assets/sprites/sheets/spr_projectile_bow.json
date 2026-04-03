@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_projectile_bow",
+  "frame_width": 19,
+  "frame_height": 19,
+  "columns": 9,
+  "rows": 1,
+  "total_frames": 9,
+  "sheet_width": 171,
+  "sheet_height": 19,
+  "xorigin": 9,
+  "yorigin": 9
+}

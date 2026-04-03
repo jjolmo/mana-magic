@@ -1,0 +1,202 @@
+{
+  "rom_start-evt_start1": [
+    "Bienvenido a Mana Magic. Pulsa la tecla [S] o [BTN 1] para avanzar",
+    "¿Que vas a utilizar para jugar?"
+  ],
+  "rom_start-evt_start1_android": [
+    "Bienvenido a Mana Magic. Pulsa [ATTACK] para avanzar en el dialogo"
+  ],
+  "rom_start-evt_start2": [
+    "Perfecto. Configurare {option} como control para el jugador principal",
+    "Disculpa la falta de acentos y simbolos del idioma espanol",
+    "Seran anyadidos en el futuro"
+  ],
+  "rom_start-evt_start3": [
+    "Esto es una recreacion de Secret of Mana. ¬\nEs un engine completo!",
+    "Hay 3 personajes que puedes controlar tu o la IA",
+    "Puedes cambiar el personaje asignado pulsando el boton [SWAP/CHANGE]"
+  ],
+  "rom_start-evt_start3_extra": [
+    "Puedes ademas anyadir mas jugadores pulsando [START] en otros gamepads"
+  ],
+  "rom_start-evt_start4": [
+    "Este motor tiene dos escenas",
+    "Last bosses: Como ejemplo de la capacidad del motor, te enfrentaras los ultimos dos jefes finales en \"Secret of Mana\". Escenas incluidas (spoilers obvios)",
+    "Free room: Pequenyo mapa con una historia",
+    "Elige donde quieres ir:"
+  ],
+  "rom_start-evt_start5_android": [
+    "Perfecto! Te teletransportare a la escena {option}.",
+    "Este motor fue ideado para jugar en PC asi que puede que falten controles en Android. Lo siento por esto.",
+    "Puedes encontar mas info y darme feedback, dinero or nuggets en el Twitter de @cidwel",
+    "Diviertete!"
+  ],
+  "rom_start-evt_start5": [
+    "Perfecto! Te teletransportare a la escena {option}.",
+    "Si algo no funciona, puedes resetear el engine pulsando [F12]",
+    "Puedes encontar mas info y darme feedback, dinero or nuggets en el Twitter de @cidwel",
+    "Diviertete!"
+  ],
+  "rom_01-evt_start1": [
+    "Puedes crear enemigos haciendo click en cualquier area con el segundo boton del raton.",
+    "Puedes crear un monton si presionas [CTRL] mientras clicas. Intenta no ser cruel"
+  ],
+  "rom_01-evt_keyboard": [
+    "Ciertamente no se por que sigo haciendo esto"
+  ],
+  "rom_darklich-evt_darklich1": [
+    "PURIM:Dyluck!~ \nTHANATOS:Por anyos he estado buscando...",
+    "por un humano con el poder de controlar el mundo...",
+    "...uno nacido en la sobra de la oscuridad, y crecido en la luz de Mana.",
+    "Dyluck es el elegido. \nNo puedo esperar mas. \nMi cuerpo se debilita!",
+    "Es la hora!",
+    "Usando su cuerpo tomare control de la Fortaleza Mana y dominare el mundo!"
+  ],
+  "rom_darklich-evt_darklich2": [
+    "PURIM:Dyluck! Resiste con todas tus fuerzas!"
+  ],
+  "rom_darklich-evt_darklich3": [
+    "THANATOS:Uhrg...ahh...kack! \nDebo...¬darme prisa...¬\nEste cuerpo...se debilita!",
+    "A...ayudame¬...guhuf... ¬\nDeja...me...!\n"
+  ],
+  "rom_darklich-evt_darklich4": [
+    "PURIM:Dyluck! \nEspabila!",
+    "DYLUCK:...Uhhn...donde estoy?...¬...¬...¬",
+    "Guwa ja ja!",
+    "THANATOS:Guwa ja ja! \nQue bien se siente mi nuevo cuerpo! Me hago fuerte!",
+    "PURIM:Mentiroso! No puedes simplemente ROBAR el cuerpo de otro!!",
+    "THANATOS:Querida, puedo hacer lo que quiera! \nJa, ja-ehh¬..¬?~\nNo puedo...moverme!"
+  ],
+  "rom_darklich-evt_darklich6": [
+    "PURIM...puedes oirme? Soy yo, Dyluck....",
+    "...Estoy acabado, Pero puedo ayudarte...",
+    "Thanatos es un hechicero antiguo que vendio su corazon al inframundo.",
+    "Aunque su fuerza vital es eterna, no tiene cuerpo propio.",
+    "Su fuerza vital esta oscureciendose. Se alimenta de odio y destruccion!"
+  ],
+  "rom_darklich-evt_darklich7": [
+    "THANATOS:Ohh! Silencio!"
+  ],
+  "rom_darklich-evt_darklich8": [
+    "PURIM:Lo siento mucho, no volvere a verte. Pero tengo que hacer esto.,",
+    "Eres RANDI, VERDAD? \nCuida de PURIM..."
+  ],
+  "rom_darklich-evt_darklich9": [
+    "PURIM:Dyluck! Detente! \nPor favor! Dyluck! DETENTE!! \nTHANATOS:Ugrrrrrrr!"
+  ],
+  "rom_darklich-evt_darklich10": [
+    "THANATOS:Yo prohibo esto! \nJusto cuanto iba a renacer!\nYo..debo...arreglarlo!",
+    "Dadme vuestros cuerpos!\nGUWAA!"
+  ],
+  "rom_darklich-evt_darklichTest": [
+    "Esto \nes input ~wait \nde mierda ¬ Bsdfsd fOOOM"
+  ],
+  "rom_darklich-evt_killedDarkLich1": [
+    "     El sello en la magia de \"Mana\" de Dryad se ha liberado!"
+  ],
+  "rom_darklich-evt_killedDarkLich2": [
+    "PURIM:Ooh...!¬¬\n...¬Dyluck!!!"
+  ],
+  "rom_darklich-evt_killedDarkLich3": [
+    "RANDI:PURIM..."
+  ],
+  "rom_darklich-evt_killedDarkLich4": [
+    "RANDI:Pero que..?!¬\n Salgamos de aqui!",
+    "POPOIE:Uwaaa!",
+    "RANDI:Que sucede?\nPOPOIE:...ufff..!¬\nEstoy bien...¬un poco mareado!",
+    "Tenemos que largarnos de aqui, AHORA!"
+  ],
+  "rom_darklich-evt_manaFortressOutside1": [
+    "POPOIE:Es una bestia Mana!\nPURIM:No es un Flammie?",
+    "RANDI:Supongo, Flammies fueron una vez Bestias Mana...",
+    "POPOIE:Daos prisa, o la Bestia Mana destruira el mundo!"
+  ],
+  "rom_darklich-evt_manaFortressOutside2": [
+    "POPOIE:Vamos! Adelate!",
+    "RANDI:...No puedo...\nNo danyare a una Bestia Mana!\nNo puedo!",
+    "Solo intentan restablecer el Mana!",
+    "Y...¬...POPOIE!\nSi usas todo tu poder Mana, desapareceras!",
+    "PURIM:Oh NO!~\nRANDI:Asi es...No puedo seguir con esto...",
+    "POPOIE:...¬...\nPero que dices? No voy a palmar!",
+    "Mi mundo esta separado de este. Eso solo significa que no os vere...nunca mas.",
+    "Esta bien, si no paramos a la Bestia Mana, tu mundo se destruira, ¿Verdad?",
+    "Todo perecera.\nArboles...animales..LA GENTE!\nEso no puede ocurrir!",
+    "TU tienes la espada Mana\nTU debes salvar este mundo...\nNo tienes eleccion!",
+    "Hiciste un voto a tu madre, el Arbol Mana, ¿Verdad? Estare bien.",
+    "RANDI:De acuerdo...~\n...¿Estas seguro?",
+    "POPOIE:POR SUPUESTO!\nVamos, PURIM!"
+  ],
+  "rom_manaBeast_start0": "POPOIE: Usa la espada!",
+  "rom_manaBeast_start1": "Usaremos magia Mana en ella, entonces!",
+  "rom_manaBeast_start2": "La espada Mana aparecera!",
+  "rom_02-evt_rabiteQuestStart_0": [
+    "POPOIE: Oiiii! Estoy cansado...¬Y hambriento!¬\n¿Podemos descansar un poco?"
+  ],
+  "rom_02-evt_rabiteQuestStart_1": [
+    "PURIM:Comerte tu comida, la mia, y la del Rey de Tasnica... ¿no te ha llenado suficiente?",
+    "Eso fue hace dos horas!\n¬Como puedes tener hambre?",
+    "POPOIE:La magia oscura me da hambre. Dejar de hacerme trabajar tanto!"
+  ],
+  "rom_02-evt_rabiteQuestStart_2": [
+    "RANDI:Llegamos tarde!\nTenemos que entregar las semillas a Luka.",
+    "Ella nos dira como sellarlas de nuevo!"
+  ],
+  "rom_02-evt_rabiteQuestStart_3": [
+    "PURIM:Eh...¬??¬ \nNo es eso un Rabite?¬ Que adorable!\nNo he visto ninguno en mucho tiempo",
+    "POPOIE:Podemos asarlo?¬\nPegare un mordisquito.¬\nLo juro!"
+  ],
+  "rom_02-evt_rabiteQuestStart_4": [
+    "RANDI:Auuuu!!\nPURIM:Eh!\nPOPOIE:AIEEEE!"
+  ],
+  "rom_02-evt_rabiteQuestStart_5": [
+    "PURIM:Eh! Sinverguenza",
+    "RANDI:NO!¬ Las Semillas Mana! Ese idiota las ha robado!"
+  ],
+  "rom_02-evt_rabiteQuestStart_6": [
+    "POPOIE:Grrrr!¬ Voy a devorarme a ese idiota!"
+  ],
+  "rom_02-evt_rabiteQuestStart_7": [
+    "RANDI:Eyy!¬ Espera!"
+  ],
+  "rom_02-evt_rabiteQuestField_1": [
+    "RANDI:Por ahi va!"
+  ],
+  "rom_02-evt_rabiteQuestField_2": [
+    "RANDI:Rapido!\nTenemos que recuperar las Semillas Mana!",
+    "POPOIE:Con salsa barbacoa o sin ella. Me da igual!",
+    "PURIM:Pensaba que los duendes eran menos... sadicos"
+  ],
+  "rom_02-teleportDeny_1": [
+    "Ey!¬ El Rabite se esta escapando! Tenemos que recuperar las semillas!"
+  ],
+  "rom_end-evt_end": [
+    "La demo acaba aqui.¬ Espero que te haya gustado.",
+    "Puedes seguir el progreso de este engine en mi cuenta de Twitter @cidwel",
+    "Gracias por jugar!"
+  ],
+  "general_gameOver": [
+    "Tristemente, ningun rastro de ellos fue encontrado..."
+  ],
+  "conditions_heroHasSwordEquipped": [
+    "Randi debe usar la Espada!"
+  ],
+  "conditions_callFlammie": [
+    "No se puede USAR a Flammie aqui!"
+  ],
+  "conditions_useRope": [
+    "No se puede USAR la cuerda ahi!"
+  ],
+  "legend": [
+    "¬ stop",
+    "~ wait input",
+    "\n force new line ",
+    "^ will set dialog.lock to true and text will not advance until dialogUnlock() is called. NOT WORKING, I HAVE TO CREATE IT",
+    "{option} will show the selected option (todo)",
+    "{new} will recreate the dialog with the animation. Good for changing actors (todo)",
+    "Hey!¬ The rabite went forth! \nWe have to recover the seeds! (// todo: check this out!!"
+  ],
+  "rom_01-npc_neko_01": [
+    "Holis!¬ Que clima mas perfecto tenemos hoy",
+    "Que te trae por aqui?¬ Soy tu gato!"
+  ]
+}

@@ -1,0 +1,21 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://xa8aicxvnlqb" path="res://engine/world/destructible_asset.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dwv73m7nb3ymi" path="res://assets/sprites/spr_bush/bush_intact.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dwv2ynhphigjy" path="res://assets/sprites/spr_bush/bush_destroyed.png" id="3"]
+
+[sub_resource type="RectangleShape2D" id="rect_bush"]
+size = Vector2(16, 16)
+
+[node name="DestructibleBush" type="StaticBody2D"]
+collision_layer = 4
+collision_mask = 0
+script = ExtResource("1")
+intact_texture = ExtResource("2")
+destroyed_texture = ExtResource("3")
+vulnerable_weapons = Array[int]([0, 1])
+destroy_delay = 10
+destroy_sound = "snd_bush"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("rect_bush")

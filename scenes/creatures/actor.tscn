@@ -1,0 +1,123 @@
+[gd_scene format=3 uid="uid://cwp72fte7kxsu"]
+
+[ext_resource type="Script" uid="uid://dd5jh8u0wc6s6" path="res://engine/creatures/actor.gd" id="1"]
+[ext_resource type="Script" uid="uid://dpjoxpyn4m8ga" path="res://engine/core/state_machine.gd" id="2"]
+[ext_resource type="Script" uid="uid://bgfsuoyyobpn7" path="res://engine/creatures/states/actor_stand.gd" id="3"]
+[ext_resource type="Script" uid="uid://vmd1afscankg" path="res://engine/creatures/states/actor_walk.gd" id="4"]
+[ext_resource type="Script" uid="uid://chqtcu4xf5vnm" path="res://engine/creatures/states/actor_attack.gd" id="5"]
+[ext_resource type="Script" uid="uid://bnrhtdulc1ddv" path="res://engine/creatures/states/actor_hit.gd" id="6"]
+[ext_resource type="Script" uid="uid://dak8nhnqkt61l" path="res://engine/creatures/states/actor_dead.gd" id="7"]
+[ext_resource type="Script" uid="uid://cup04c55amolu" path="res://engine/creatures/states/actor_ia_stand.gd" id="8"]
+[ext_resource type="Script" uid="uid://dk4ecj1rphvt2" path="res://engine/creatures/states/actor_ia_follow.gd" id="9"]
+[ext_resource type="Script" uid="uid://brglfi2dl51rk" path="res://engine/creatures/states/actor_ia_follow_running.gd" id="10"]
+[ext_resource type="Script" uid="uid://nqipkhwmjokk" path="res://engine/creatures/states/actor_charging.gd" id="11"]
+[ext_resource type="Script" uid="uid://dylyrqq3506ho" path="res://engine/creatures/states/actor_hit2.gd" id="12"]
+[ext_resource type="Script" uid="uid://erxgkb6wusdu" path="res://engine/creatures/states/actor_parry.gd" id="13"]
+[ext_resource type="Script" uid="uid://c2krenximhf6o" path="res://engine/creatures/states/actor_recover.gd" id="14"]
+[ext_resource type="Script" uid="uid://dsu4d1o2b3brx" path="res://engine/creatures/states/actor_summon.gd" id="15"]
+[ext_resource type="Script" uid="uid://drjsxm26nwadp" path="res://engine/creatures/states/actor_weapon_power.gd" id="16"]
+[ext_resource type="Script" uid="uid://cg7ssf1sb02fh" path="res://engine/creatures/states/actor_charging_weapon.gd" id="17"]
+[ext_resource type="Script" uid="uid://cumb0tbmrudf1" path="res://engine/creatures/states/actor_move_assisted.gd" id="18"]
+[ext_resource type="Script" uid="uid://dah0v5g5cgu0d" path="res://engine/creatures/states/actor_animation.gd" id="19"]
+[ext_resource type="Script" uid="uid://dws4jh5nul8lt" path="res://engine/creatures/states/actor_static_animation.gd" id="20"]
+[ext_resource type="Script" uid="uid://c0hmjm4x2cund" path="res://engine/creatures/states/actor_pushing.gd" id="21"]
+[ext_resource type="Script" uid="uid://5ll4w85h2jvg" path="res://engine/creatures/states/actor_ia_guard.gd" id="22"]
+[ext_resource type="Script" uid="uid://dwtgucyytkglm" path="res://engine/creatures/states/actor_ia_guard_target.gd" id="23"]
+[ext_resource type="Script" uid="uid://c17qlue5u21pb" path="res://engine/creatures/states/actor_ia_search_target.gd" id="24"]
+[ext_resource type="Script" uid="uid://b2ol056h6x5k3" path="res://engine/creatures/states/actor_ia_prepare_attack.gd" id="25"]
+[ext_resource type="Script" uid="uid://bohvi5c6yyovl" path="res://engine/creatures/states/actor_ia_attack.gd" id="26"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_actor"]
+size = Vector2(12, 8)
+
+[node name="Actor" type="CharacterBody2D" unique_id=2107185659]
+collision_layer = 2
+collision_mask = 5
+motion_mode = 1
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=177540827]
+
+[node name="Shadow" type="Sprite2D" parent="." unique_id=2087713752]
+modulate = Color(0, 0, 0, 0.3)
+z_index = -1
+position = Vector2(0, -1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1842677495]
+shape = SubResource("RectangleShape2D_actor")
+
+[node name="StateMachine" type="Node" parent="." unique_id=66910268]
+script = ExtResource("2")
+initial_state = NodePath("Stand")
+
+[node name="Stand" type="Node" parent="StateMachine" unique_id=300682742]
+script = ExtResource("3")
+
+[node name="Walk" type="Node" parent="StateMachine" unique_id=233262097]
+script = ExtResource("4")
+
+[node name="Attack" type="Node" parent="StateMachine" unique_id=910832216]
+script = ExtResource("5")
+
+[node name="Hit" type="Node" parent="StateMachine" unique_id=567677230]
+script = ExtResource("6")
+
+[node name="Dead" type="Node" parent="StateMachine" unique_id=1073709195]
+script = ExtResource("7")
+
+[node name="IAStand" type="Node" parent="StateMachine" unique_id=1389986811]
+script = ExtResource("8")
+
+[node name="IAFollow" type="Node" parent="StateMachine" unique_id=834801699]
+script = ExtResource("9")
+
+[node name="IAFollowRunning" type="Node" parent="StateMachine" unique_id=134592220]
+script = ExtResource("10")
+
+[node name="Charging" type="Node" parent="StateMachine" unique_id=1822364299]
+script = ExtResource("11")
+
+[node name="Hit2" type="Node" parent="StateMachine" unique_id=308418984]
+script = ExtResource("12")
+
+[node name="Parry" type="Node" parent="StateMachine" unique_id=1037012532]
+script = ExtResource("13")
+
+[node name="Recover" type="Node" parent="StateMachine" unique_id=1561099594]
+script = ExtResource("14")
+
+[node name="Summon" type="Node" parent="StateMachine" unique_id=1965948197]
+script = ExtResource("15")
+
+[node name="WeaponPower" type="Node" parent="StateMachine" unique_id=546129415]
+script = ExtResource("16")
+
+[node name="ChargingWeapon" type="Node" parent="StateMachine" unique_id=1201393878]
+script = ExtResource("17")
+
+[node name="MoveAssisted" type="Node" parent="StateMachine" unique_id=924593561]
+script = ExtResource("18")
+
+[node name="Animation" type="Node" parent="StateMachine" unique_id=1982854614]
+script = ExtResource("19")
+
+[node name="StaticAnimation" type="Node" parent="StateMachine" unique_id=1497107042]
+script = ExtResource("20")
+
+[node name="Pushing" type="Node" parent="StateMachine" unique_id=737436010]
+script = ExtResource("21")
+
+[node name="IAGuard" type="Node" parent="StateMachine" unique_id=491926124]
+script = ExtResource("22")
+
+[node name="IAGuardTarget" type="Node" parent="StateMachine" unique_id=1380591725]
+script = ExtResource("23")
+
+[node name="IASearchTarget" type="Node" parent="StateMachine" unique_id=1390918783]
+script = ExtResource("24")
+
+[node name="IAPrepareAttack" type="Node" parent="StateMachine" unique_id=1962942660]
+script = ExtResource("25")
+
+[node name="IAAttack" type="Node" parent="StateMachine" unique_id=1690152128]
+script = ExtResource("26")

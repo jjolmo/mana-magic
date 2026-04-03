@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_iconsSkills",
+  "frame_width": 16,
+  "frame_height": 16,
+  "columns": 10,
+  "rows": 13,
+  "total_frames": 128,
+  "sheet_width": 160,
+  "sheet_height": 208,
+  "xorigin": 8,
+  "yorigin": 8
+}

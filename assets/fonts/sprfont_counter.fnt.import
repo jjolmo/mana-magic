@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://dyufkdxkiqb4a"
+path="res://.godot/imported/sprfont_counter.fnt-eda5f72429f3ac550fac6487ba4eda37.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/sprfont_counter.fnt"
+dest_files=["res://.godot/imported/sprfont_counter.fnt-eda5f72429f3ac550fac6487ba4eda37.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

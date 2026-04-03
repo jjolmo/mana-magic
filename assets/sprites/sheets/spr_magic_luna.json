@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_magic_luna",
+  "frame_width": 36,
+  "frame_height": 36,
+  "columns": 8,
+  "rows": 1,
+  "total_frames": 8,
+  "sheet_width": 288,
+  "sheet_height": 36,
+  "xorigin": 18,
+  "yorigin": 18,
+  "playback_speed": 15.0
+}

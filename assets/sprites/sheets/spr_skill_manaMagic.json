@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_manaMagic",
+  "frame_width": 63,
+  "frame_height": 95,
+  "columns": 10,
+  "rows": 3,
+  "total_frames": 23,
+  "sheet_width": 630,
+  "sheet_height": 285,
+  "xorigin": 31,
+  "yorigin": 70,
+  "playback_speed": 60.0
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "name": "undine",
+    "nameText": "Undine",
+    "subimage": 27
+  },
+  {
+    "id": 1,
+    "name": "gnome",
+    "nameText": "Gnome",
+    "subimage": 34
+  },
+  {
+    "id": 2,
+    "name": "sylphid",
+    "nameText": "Sylphid",
+    "subimage": 29
+  },
+  {
+    "id": 3,
+    "name": "salamando",
+    "nameText": "Gnome",
+    "subimage": 28
+  },
+  {
+    "id": 4,
+    "name": "shade",
+    "nameText": "Shade",
+    "subimage": 33
+  },
+  {
+    "id": 5,
+    "name": "luna",
+    "nameText": "Luna",
+    "subimage": 30
+  },
+  {
+    "id": 6,
+    "name": "lumina",
+    "nameText": "Lumina",
+    "subimage": 32
+  },
+  {
+    "id": 7,
+    "name": "dryad",
+    "nameText": "Dryad",
+    "subimage": 31
+  }
+]

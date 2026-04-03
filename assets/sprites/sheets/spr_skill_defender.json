@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_defender",
+  "frame_width": 90,
+  "frame_height": 90,
+  "columns": 10,
+  "rows": 4,
+  "total_frames": 34,
+  "sheet_width": 900,
+  "sheet_height": 360,
+  "xorigin": 45,
+  "yorigin": 45,
+  "playback_speed": 60.0
+}

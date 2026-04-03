@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_burst",
+  "frame_width": 32,
+  "frame_height": 32,
+  "columns": 6,
+  "rows": 1,
+  "total_frames": 6,
+  "sheet_width": 192,
+  "sheet_height": 32,
+  "xorigin": 16,
+  "yorigin": 16,
+  "playback_speed": 10.0
+}

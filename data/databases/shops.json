@@ -1,0 +1,81 @@
+[
+  {
+    "id": 0,
+    "sellerId": "neko_01",
+    "discount": 0,
+    "items": [
+      {
+        "itemId": 1,
+        "price": 10,
+        "stock": -1
+      },
+      {
+        "itemId": 47,
+        "price": 1,
+        "stock": -1
+      },
+      {
+        "itemId": 2,
+        "price": 15,
+        "stock": -1
+      },
+      {
+        "itemId": 4,
+        "price": 150,
+        "stock": -1
+      },
+      {
+        "itemId": 5,
+        "price": 500,
+        "stock": -1
+      },
+      {
+        "itemId": 6,
+        "price": 300,
+        "stock": -1
+      },
+      {
+        "itemId": 7,
+        "price": 50,
+        "stock": -1
+      }
+    ],
+    "equipment": [
+      {
+        "itemId": 0,
+        "price": 9500,
+        "stock": -1
+      },
+      {
+        "itemId": 1,
+        "price": 11500,
+        "stock": -1
+      },
+      {
+        "itemId": 2,
+        "price": 25000,
+        "stock": -1
+      },
+      {
+        "itemId": 3,
+        "price": 44000,
+        "stock": -1
+      },
+      {
+        "itemId": 4,
+        "price": 64000,
+        "stock": -1
+      },
+      {
+        "itemId": 5,
+        "price": 52000,
+        "stock": -1
+      },
+      {
+        "itemId": 6,
+        "price": 49500,
+        "stock": -1
+      }
+    ]
+  }
+]

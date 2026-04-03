@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_darkForce",
+  "frame_width": 20,
+  "frame_height": 20,
+  "columns": 10,
+  "rows": 3,
+  "total_frames": 26,
+  "sheet_width": 200,
+  "sheet_height": 60,
+  "xorigin": 10,
+  "yorigin": 10,
+  "playback_speed": 15.0
+}

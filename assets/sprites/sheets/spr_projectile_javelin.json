@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_projectile_javelin",
+  "frame_width": 36,
+  "frame_height": 9,
+  "columns": 2,
+  "rows": 1,
+  "total_frames": 2,
+  "sheet_width": 72,
+  "sheet_height": 9,
+  "xorigin": 18,
+  "yorigin": 4
+}

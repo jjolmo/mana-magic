@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "None",
+    "description": "No magic ability"
+  },
+  {
+    "id": 1,
+    "name": "Black Magic",
+    "description": "Offensive magic (damage, debuffs)"
+  },
+  {
+    "id": 2,
+    "name": "White Magic",
+    "description": "Support magic (healing, buffs)"
+  },
+  {
+    "id": 3,
+    "name": "Son of Mana",
+    "description": "Access to all magic (black + white)"
+  }
+]

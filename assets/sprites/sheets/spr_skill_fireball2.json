@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_fireball2",
+  "frame_width": 64,
+  "frame_height": 64,
+  "columns": 10,
+  "rows": 2,
+  "total_frames": 14,
+  "sheet_width": 640,
+  "sheet_height": 128,
+  "xorigin": 32,
+  "yorigin": 60,
+  "playback_speed": 15.0
+}

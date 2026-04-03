@@ -1,0 +1,61 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://hrt34v0n878o"]
+
+[ext_resource type="Texture2D" uid="uid://dd42fot4kqxwr" path="res://assets/animations/weapons/javelin/attack_down.png" id="1_v4a85"]
+[ext_resource type="Texture2D" uid="uid://cakl4hnwlxo2j" path="res://assets/animations/weapons/javelin/attack_left.png" id="2_u517y"]
+[ext_resource type="Texture2D" uid="uid://dvf2px1eeeuhs" path="res://assets/animations/weapons/javelin/attack_right.png" id="3_dueuq"]
+[ext_resource type="Texture2D" uid="uid://c46paorofmyqy" path="res://assets/animations/weapons/javelin/attack_up.png" id="4_lqvuo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_treqx"]
+atlas = ExtResource("1_v4a85")
+region = Rect2(0, 0, 72, 72)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dmw05"]
+atlas = ExtResource("2_u517y")
+region = Rect2(0, 0, 72, 72)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3xkl4"]
+atlas = ExtResource("3_dueuq")
+region = Rect2(0, 0, 72, 72)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ga8vb"]
+atlas = ExtResource("4_lqvuo")
+region = Rect2(0, 0, 72, 72)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_treqx")
+}],
+"loop": false,
+"name": &"attack_down",
+"speed": 14.4
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dmw05")
+}],
+"loop": false,
+"name": &"attack_left",
+"speed": 14.4
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3xkl4")
+}],
+"loop": false,
+"name": &"attack_right",
+"speed": 14.4
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ga8vb")
+}],
+"loop": false,
+"name": &"attack_up",
+"speed": 14.4
+}]

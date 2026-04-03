@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_energyAbsorb",
+  "frame_width": 16,
+  "frame_height": 16,
+  "columns": 10,
+  "rows": 1,
+  "total_frames": 10,
+  "sheet_width": 160,
+  "sheet_height": 16,
+  "xorigin": 8,
+  "yorigin": 8,
+  "playback_speed": 60.0
+}

@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_remedy",
+  "frame_width": 56,
+  "frame_height": 107,
+  "columns": 10,
+  "rows": 7,
+  "total_frames": 65,
+  "sheet_width": 560,
+  "sheet_height": 749,
+  "xorigin": 27,
+  "yorigin": 91,
+  "playback_speed": 60.0
+}

@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_sleepFlower",
+  "frame_width": 68,
+  "frame_height": 68,
+  "columns": 10,
+  "rows": 3,
+  "total_frames": 22,
+  "sheet_width": 680,
+  "sheet_height": 204,
+  "xorigin": 34,
+  "yorigin": 34,
+  "playback_speed": 10.0
+}

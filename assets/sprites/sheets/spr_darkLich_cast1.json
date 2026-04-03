@@ -1,0 +1,12 @@
+{
+  "sprite_name": "spr_darkLich_cast1",
+  "frame_width": 36,
+  "frame_height": 36,
+  "columns": 6,
+  "rows": 1,
+  "total_frames": 6,
+  "sheet_width": 216,
+  "sheet_height": 36,
+  "xorigin": 18,
+  "yorigin": 18
+}

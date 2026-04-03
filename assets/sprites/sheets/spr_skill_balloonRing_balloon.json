@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_balloonRing_balloon",
+  "frame_width": 54,
+  "frame_height": 54,
+  "columns": 8,
+  "rows": 1,
+  "total_frames": 8,
+  "sheet_width": 432,
+  "sheet_height": 54,
+  "xorigin": 27,
+  "yorigin": 53,
+  "playback_speed": 60.0
+}

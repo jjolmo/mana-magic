@@ -1,0 +1,13 @@
+{
+  "sprite_name": "spr_skill_evilGate",
+  "frame_width": 48,
+  "frame_height": 48,
+  "columns": 10,
+  "rows": 2,
+  "total_frames": 15,
+  "sheet_width": 480,
+  "sheet_height": 96,
+  "xorigin": 24,
+  "yorigin": 24,
+  "playback_speed": 60.0
+}
